@@ -1,0 +1,20 @@
+RELATIVE_COORDINATES: True
+FRONTAL_FACE_PARAM: 0.22
+MIN_RELATIVE_FACE_SQUARE: 0.02
+NUM_TOP_CLOSEST_FACES: 1
+DEFAULT_COORD_VALUE: -1.0
+
+VISUALIZE_HAND_LANDMARKS: True
+VISUALIZE_FACE_DETECTIONS: True
+PRINT_DATA: False
+
+PIPE_NAME: "MessageServer"
+BUFFER_SIZE: 512
+MAKE_SERVER: True
+
+# TODO (maybe):
+# Pass specific keypoint of hand, not center_mass
+# Always pass hand coordinates and pass if gesture is valid
+# Fixed max_fps
+# Print function
+# Logging
